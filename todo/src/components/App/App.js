@@ -8,21 +8,21 @@ const toDoItem = 'Написать новое приложение';
 const App = () => {
   const items = [
   {
-    value: 'Написать новое приложение',
+    value: 'Работа',
     isDone: true
   },
   {
-    value: 'Прописать props-ы',
+    value: 'Чтение книги',
     isDone: false
   },
   {
-    value: 'Сделать все дела',
+    value: 'Уборка',
     isDone: true
   }
   ];
   return (
   <div className={styles.wrap}>
-    <h1 className={styles.title}>Важные дела:</h1>
+    <h1 className={styles.title}>Список дел:</h1>
     <InputItem />
     <ItemList items={items} />
     <Footer count={3} />
