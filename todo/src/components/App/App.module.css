@@ -2,8 +2,8 @@ html,
 body {
   margin: 0;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 15px;
-  background-color: #e9e2da;
+  font-size: 20px;
+  background-color: #fffdfa;
   color: #000;
 }
 
@@ -12,6 +12,6 @@ body {
   text-align: center;
   width: 500px;
   height: 400px;
-  border-radius: 10px;
-  background-color: #f0e9de;
+  border-radius: 5px;
+  background-color: #faf8f4;
 }
