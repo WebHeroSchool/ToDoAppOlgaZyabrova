@@ -1,8 +1,17 @@
-.wrap {
-    margin: auto;
-    width: 300px;
+html,
+body {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  background-color: #fffdfa;
+  color: #000;
 }
 
-.title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.wrap {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  height: 400px;
+  border-radius: 5px;
+  background-color: #faf8f4;
 }
